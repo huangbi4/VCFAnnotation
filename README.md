@@ -12,12 +12,16 @@ The implementation of VCFAnnotation is based on Python 3.6. It depends on 2 Py
 
 
 ## Input data
-1. ExAC_allel_frq.pkl
+1. ExAC_allel_freq.pkl
 2. Variants file in VCF format
 
 
 ## Usage
 Sample run using the test VCF file in the repo
+```
+Python VCFAnnotation.py –i test/Challenge_data_with_SnpEff.vcf –p ExAC_allel_freq.pkl –o annotation_Challenge_data_with_SnpEff.tsv
+```
 
-Python VCFAnnotation.py –i test/XXX –p Exac_.pkl –o 
+## Output data
+
 
