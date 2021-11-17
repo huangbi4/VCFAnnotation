@@ -37,7 +37,7 @@ Python VCFAnnotation.py –i test/Challenge_data_with_SnpEff.vcf –p ExAC_allel
 |10|DP|Depth of sequence coverage at the site of variation|
 |11|AO|Number of reads supporting the variant|
 |12|AO:RO|Reads supporting the variant versus reads supporting reference reads|
-|13|ExAC_alle_fre|Allele frequency of variant from ExAC database|
+|13|ExAC_alle_fre|Allele frequency of variant from ExAC database. If this variant is not in the database, the value will be '.'|
 
 
 
